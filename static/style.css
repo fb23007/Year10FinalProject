@@ -1,7 +1,3 @@
-.small {
-  width: 200px;
-  height: auto;
- }
 
 body {
   background-color: #0f172a;
@@ -15,7 +11,6 @@ nav {
   text-align: center;
   border-bottom: 1px solid #334155;
   position: sticky;
-  top: 0;
 }
 
 nav a {
@@ -39,13 +34,17 @@ h1 {
 
 div {
   width: 1400px;
-  overflow: hidden;
   background-color: #1e293b;
   border-radius: 12px;
-  border: 1px solid #334155;
+  border: 5px solid #334155;
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
-  margin: 31px;
+  margin: 32px;
   color: #cbd5e1;
+  text-align: left;
+}
+
+.texty {
+  width: 1000px;
   text-align: left;
 }
 
@@ -60,10 +59,12 @@ img {
 }
 
 iframe {
+  width: 98%;
   display: block;
-  height: 450px;
-  width: 900px;
-  margin: 50px auto 0 auto;
-  border: 2px solid #334155;
-  border-radius: 12px;
+  margin: 32px;
+}
+
+.smaller {
+  width: 200px;
+  display: flex;
 }
